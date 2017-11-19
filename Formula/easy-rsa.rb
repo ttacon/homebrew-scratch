@@ -9,7 +9,7 @@ class EasyRsa < Formula
   sha256 "fb239d67f4bd09f817b0025450d422ed7ae3ee93af737c57d4acd8fdb646079e"
 
   def install
-    bin.install "easyrsa3/easyrsa"
+    bin.install "easyrsa"
   end
 
   test do
